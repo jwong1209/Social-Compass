@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Social Compass</string>
+    <string name="ui_home_circle_id">green_circle</string>
+    <string name="ui_family_circle_id">red_circle</string>
+    <string name="ui_friend_circle_id">blue_circle</string>
+    <string name="ui_home_text_id">my_home_text</string>
+    <string name="ui_family_text_id">my_family_text</string>
+    <string name="ui_friend_text_id">my_friend_text</string>
+    <string name="ui_home_row_id">my_home_row_layout</string>
+    <string name="ui_friend_row_id">my_friend_row_layout</string>
+    <string name="ui_family_row_id">my_family_row_layout</string>
+    <string name="home_lat_key">currentHomeLat</string>
+    <string name="home_long_key">currentHomeLong</string>
+    <string name="family_lat_key">famiyHomeLat</string>
+    <string name="family_long_key">familyHomeLong</string>
+    <string name="friend_lat_key">friendHomeLat</string>
+    <string name="friend_long_key">friendHomeLong</string>
+    <string name="default_home_label">My Current Home</string>
+    <string name="default_family_label">My Famiy\'s Home</string>
+    <string name="default_friend_label">My Best Friend\'s Home</string>
+    <string name="home_label_key">inputted_home_label_key</string>
+    <string name="family_label_key">inputted_family_label_key</string>
+    <string name="friend_label_key">inputted_friend_label_key</string>
+    <string name="initialized">Shared Preferences Initialized</string>
+    <string name="shared_preferences_id">input</string>
+    <string name="input_orientation">Input Orientation</string>
+    <string name="submit">Submit</string>
+</resources>

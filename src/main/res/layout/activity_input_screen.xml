@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.InputActivity">
+
+    <EditText
+        android:id="@+id/friendHomeLongitude"
+        android:layout_width="192dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:hint="Longitude"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/friendLabel" />
+
+    <EditText
+        android:id="@+id/friendHomeLatitude"
+        android:layout_width="192dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:hint="Latitude"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/friendLabel" />
+
+    <EditText
+        android:id="@+id/familyHomeLongitude"
+        android:layout_width="192dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="Longitude"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/familyLabel" />
+
+    <EditText
+        android:id="@+id/familyHomeLatitude"
+        android:layout_width="192dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:hint="Latitude"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/familyLabel" />
+
+    <EditText
+        android:id="@+id/currentHomeLongitude"
+        android:layout_width="192dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Longitude"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeLabel" />
+
+    <EditText
+        android:id="@+id/friendLabel"
+        android:layout_width="174dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="Label"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/friendDisplay" />
+
+    <EditText
+        android:id="@+id/familyLabel"
+        android:layout_width="174dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="Label"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parentDisplay" />
+
+    <EditText
+        android:id="@+id/homeLabel"
+        android:layout_width="174dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="Label"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentHomeDisplay" />
+
+    <TextView
+        android:id="@+id/friendDisplay"
+        android:layout_width="281dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="50dp"
+        android:text="Friend Home"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parentDisplay"
+        app:layout_constraintVertical_bias="0.241" />
+
+    <TextView
+        android:id="@+id/parentDisplay"
+        android:layout_width="281dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="50dp"
+        android:text="Parent Home"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentHomeDisplay"
+        app:layout_constraintVertical_bias="0.164" />
+
+    <TextView
+        android:id="@+id/inputTitle"
+        android:layout_width="360dp"
+        android:layout_height="69dp"
+        android:text="Input Your Locations"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/currentHomeDisplay"
+        android:layout_width="238dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        android:text="Current Home"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputTitle"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <Button
+        android:id="@+id/inputButton"
+        android:layout_width="189dp"
+        android:layout_height="66dp"
+        android:onClick="OnSubmitClicked"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/friendLabel"
+        app:layout_constraintVertical_bias="0.813" />
+
+    <EditText
+        android:id="@+id/currentHomeLatitude"
+        android:layout_width="192dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Latitude"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeLabel" />
+
+    <EditText
+        android:id="@+id/mock_phone_direction"
+        android:layout_width="251dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="Mock Phone Direction Input"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/inputButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputTitle"
+        app:layout_constraintVertical_bias="0.983" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
